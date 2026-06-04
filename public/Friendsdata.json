@@ -2,9 +2,9 @@
     {
         "id": 1,
         "name": "David Kim",
-        "picture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6",
+        "picture": "/images/pic1.jpg",
         "email": "kim@example.com",
-        "days_since_contact": 10,
+        "days_since_contact": "10d ago",
         "status": "Almost due",
         "tags": [
             "Work"
@@ -16,9 +16,9 @@
     {
         "id": 2,
         "name": "David miller",
-        "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+        "picture": "/images/pic2.webp",
         "email": "nabila@example.com",
-        "days_since_contact": 5,
+        "days_since_contact": "5d ago",
         "status": "overdue",
         "tags": [
             "Family"
@@ -30,9 +30,9 @@
     {
         "id": 3,
         "name": "Tanvir Ahmed",
-        "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+        "picture": "/images/pic3.jfif",
         "email": "tanvir@example.com",
-        "days_since_contact": 25,
+        "days_since_contact": "25d ago",
         "status": "overdue",
         "tags": [
             "work"
@@ -44,9 +44,9 @@
     {
         "id": 4,
         "name": "Tarakashwar das",
-        "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+        "picture": "/images/pic4.jpeg",
         "email": "sajid@example.com",
-        "days_since_contact": 5,
+        "days_since_contact": "5d ago",
         "status": "Overdue",
         "tags": [
             "Hobby",
@@ -59,9 +59,9 @@
     {
         "id": 5,
         "name": "Prema Das",
-        "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+        "picture": "/images/pic5.jpg",
         "email": "fariha@example.com",
-        "days_since_contact": 45,
+        "days_since_contact": "45d ago",
         "status": "overdue",
         "tags": [
             "Work"
@@ -73,9 +73,9 @@
     {
         "id": 6,
         "name": "Durjoy Barua",
-        "picture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
+        "picture": "/images/pic6.png",
         "email": "asif@example.com",
-        "days_since_contact": 2,
+        "days_since_contact": "2d ago",
         "status": "on track",
         "tags": [
             "Gaming"
@@ -87,9 +87,9 @@
     {
         "id": 7,
         "name": "Angshi Das",
-        "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+        "picture": "/images/pic7.jfif",
         "email": "mehnaz@example.com",
-        "days_since_contact": 14,
+        "days_since_contact": "14d ago",
         "status": "On track",
         "tags": [
             "Work"
@@ -101,9 +101,9 @@
     {
         "id": 8,
         "name": "Riad Hossain",
-        "picture": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7",
+        "picture": "/images/pic8.jfif",
         "email": "riad@example.com",
-        "days_since_contact": 28,
+        "days_since_contact": "28d ago",
         "status": "Almost due",
         "tags": [
             "travel",
@@ -116,9 +116,9 @@
     {
         "id": 9,
         "name": "Purno Das",
-        "picture": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61",
+        "picture": "/images/pic9.jfif",
         "email": "taskin@example.com",
-        "days_since_contact": 1,
+        "days_since_contact": "1d ago",
         "status": "on track",
         "tags": [
             "Coding",
@@ -131,9 +131,9 @@
     {
         "id": 10,
         "name": "Zarin Moshtak",
-        "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+        "picture": "/images/pic10.jfif",
         "email": "zarin@example.com",
-        "days_since_contact": 50,
+        "days_since_contact": "50d ago",
         "status": "On track",
         "tags": [
             "music",
