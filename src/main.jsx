@@ -4,6 +4,7 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router';
 import MainLayout from './layout/MainLayout';
 import Home from './components/homepage/Home';
+import CardDetails from './components/CardDetails';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,12 @@ const router = createBrowserRouter([
         path: "/stats",
         element: "Stats"
       },
-    ]
+      {
+        path: "/cardDetails/:id",
+        element: <CardDetails />,
+        loader: () => fetch("/friendsData.json"),
+      },
+    ],
   },
 
 ]);
