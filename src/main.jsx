@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router';
 import MainLayout from './layout/MainLayout';
 import Home from './components/homepage/Home';
 import CardDetails from './components/CardDetails';
+import TimeLine from './components/timeline/TimeLine';
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/timeline",
-        element: "Timeline",
+        element: <TimeLine />,
       },
       {
         path: "/stats",
