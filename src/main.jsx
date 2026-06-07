@@ -6,11 +6,15 @@ import MainLayout from './layout/MainLayout';
 import Home from './components/homepage/Home';
 import CardDetails from './components/CardDetails';
 import TimeLine from './components/timeline/TimeLine';
+import ErrorPage from './components/ErrorPage';
+import Stats from './components/stats/Stats';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
@@ -20,15 +24,17 @@ const router = createBrowserRouter([
         path: "/timeline",
         element: <TimeLine />,
       },
-      {
-        path: "/stats",
-        element: "Stats"
-      },
+
       {
         path: "/cardDetails/:id",
         element: <CardDetails />,
         loader: () => fetch("/friendsData.json"),
       },
+      {
+        path: "/stats",
+        element: <Stats />
+      }
+
     ],
   },
 
